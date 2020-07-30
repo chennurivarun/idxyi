@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>OES</title>
+		<meta name="description" content="A CSS Grid powered menu with a box look" />
+		<meta name="keywords" content="menu, css grid, box, navigation, web development, animation" />
+		<meta name="author" content="Codrops" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo1.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/ccca18c184.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="inde.css">
+	</head>
+	<body class="demo-1">
+		<main>
+			<div class="message">To see the menu, please view on a larger screen.</div>
+			<div class="content content--fixed">
+				<button class="menu-trigger">MENU</button>
+			</div>
+			<div id="content-1" class="content content--switch content--switch-current">
+				<h2 class="content__title">ONLINE EXAM SYSTEM</h2>
+				<div class="content__date">BY ACE ENGINEERING COLLEGE</div>
+				<div class="content__location">HYDERBAD</div>
+			</div>
+			<div id="content-2" class="content content--switch">
+				<h2 class="content__title">SIGN IN</h2>
+				 <center>
+					<div class="card text-white bg-dark mb-3" style="width: 30rem; height: 23rem;" background-color: #ebebe0;>
+					  <div class="card-body">
+					<form method="post" action="login1.php">
+					  <div class="form-group col-md-6">
+					    <label for="exampleInputEmail1">Email address</label>
+					    <input type="textbox" class="form-control" name="a1" aria-describedby="emailHelp" placeholder="Enter email">
+					    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					  </div>
+					  <div class="form-group col-md-6">
+					    <label for="exampleInputPassword1">Password</label>
+					    <input type="password" class="form-control" name="p1" placeholder="Password">
+					  </div>
+					  <div class="form-group form-check">
+					    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+					    <label class="form-check-label" for="exampleCheck1">remember me</label>
+					  </div>
+					  <button class="btn btn-primary">SIGN IN</button>
+					</form>
+					</div>
+					 </div>
+					</center>
+			</div>
+			<div id="content-3" class="content content--switch">
+				<h2 class="content__title">SIGN UP</h2>
+				<div class="card text-white bg-dark mb-3" style="width: 50rem; height: 43rem;" >
+				  <div class="card-body"> 
+				<form action="insert.php" method="POST">
+				<div class="container">
+				  <div class="form-row">
+				    <div class="form-group col-md-6">
+				      <label for="first name">first name</label>
+				      <input type="text" class="form-control" name="f_name" placeholder="first name" required>
+				    </div>
+				    <div class="form-group col-md-6">
+				      <label for="last name">last name</label>
+				      <input type="text" class="form-control" name="l_name" placeholder="last name" required>
+				    </div>
+				  </div> 
+				 <div>
+				 	<label>Date Of Birth</label>
+				 	<input type="date" name="dob" /><br>
+				 </div>
+				 <label>Gender</label>
+				 <div class="form-row">
+				 	<div>
+						<label for="male">male:</label>
+						<input type="radio" name="gender" value="m" required>
+						<label for="female">female:</label>
+						<input type="radio" name="gender" value="f" required>
+						<label for="other">other:</label>
+						<input type="radio" name="gender" value="o" required>	
+					</div>
+				  </div>
+				  <div class="form-row">
+				    <div class="form-group col-md-4">
+				      <label for="phno">phone no</label>
+				      <input type="tel" class="form-control" name="phno" placeholder="p.no" required>
+				    </div>
+				   </div>
+				  <div class="form-row">
+				    <div class="form-group col-md-6">
+				      <label for="email1">Email</label>
+				      <input type="email" class="form-control" name="email1" placeholder="Email" required>
+				    </div>
+				   </div>
+				  <div class="form-group"> 
+				   <div class="form-group col-md-6">
+				     <label for="inPassword">Password</label>
+				     <input type="password" class="form-control" name="Password" placeholder="Password" required>
+				   </div>
+				  <div class="form-group">
+				    <div class="form-group col-md-6">
+				     <label for="password2">confirm password</label>
+				     <input type="password" class="form-control" name="password2" placeholder="confirm password "required>
+				    </div>
+				   </div>
+				  </div>
+				   <div class="form-group">
+				    <div class="form-check">
+				      <input class="form-check-input" type="checkbox" name="grid" required>
+				      <label class="form-check-label" for="grid">
+				        agree to all <a href="terms.html">terms and conditions</a> 
+				      </label>
+				    </div>
+				  </div>
+				  <button class="btn btn-primary">SIGN UP</button>
+				</div>
+				</form>
+				</div>
+				</div>
+			</div>
+			<div id="content-4" class="content content--switch">
+				<h2 class="content__title">TEAM</h2>
+				<p class="content__text">Utilising growth hacking in order to get buy in. Repurposing stakeholder management while remembering to re-target key demographics. Grow vertical integration to, consequently, create synergy. Synchronising custom solutions with the aim to gain traction. Amplifying branding to, consequently, re-target key demographics.</p>
+			</div>
+			<div id="content-5" class="content content--switch">
+				<h2 class="content__title">ABOUT OES</h2>
+				<p class="content__text">Leverage outside the box thinking to in turn re-target key demographics. Build empathy maps with the possibility to re-target key demographics. Informing key demographics yet make users into advocates. Leveraging customer journeys and above all, maximise share of voice. Amplifying awareness with a goal to re-target key demographics.</p>
+			</div>
+			<div id="content-6" class="content content--switch">
+				<h2 class="content__title">Schedule</h2>
+				<p class="content__text">Amplifying below the fold in order to think outside the box. Leveraging innovation and above all, build ROI. Synchronise responsive websites but disrupt the balance. Synchronise innovation to, consequently, funnel users. Create above the fold in order to be on brand. Amplify awareness with a goal to infiltrate new markets.</p>
+			</div>
+			<nav class="grim">
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--1"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--2"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--3"></div>
+					<div class="grim__item-content">
+						<div class="grim__item-inner">
+							<button class="menu-trigger menu-trigger--close">- close</button>
+						</div>
+					</div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--4"></div>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--5"></div>
+					<a href="#content-1" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">home</h3>
+						</div>
+					</a>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--6"></div>
+					<a href="#content-2" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">SIGN IN</h3>
+							<span class="grim__item-desc">GRAB N WRITE THE EXAM</span>
+						</div>
+					</a>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--7"></div>
+					<a href="#content-3" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">SIGN UP</h3>
+							<span class="grim__item-desc">REGISTER URSELF TO GROW URSELF</span>
+						</div>
+					</a>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--8"></div>
+					<a href="#content-5" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">ABOUT OES</h3>
+							<span class="grim__item-desc">THE WHOLE IDEA</span>
+						</div>
+					</a>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--9"></div>
+					<a href="#content-4" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">TEAM</h3>
+							<span class="grim__item-desc">PEOPLE BEHIND OES</span>
+						</div>
+					</a>
+				</div>
+				<div class="grim__item">
+					<div class="grim__item-bg grim__item-bg--10" data-duration="1000" data-easing="easeOutQuint"></div>
+					<a href="#content-6" class="grim__link grim__item-content">
+						<div class="grim__item-inner">
+							<h3 class="grim__item-title">ACKNOWLEDGMENT</h3>
+							<span class="grim__item-desc">ALL THE INFORMATION AND PERMISSIONS</span>
+						</div>
+					</a>
+				</div>
+			</nav>
+		</main>
+		<script src="js/demo.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/menu.js"></script>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+body	
+{
+	background-image:url("main.jpg");  
+	background-size: cover;*/
+	/*/background-position: center;*/
+}
+.bd-example{
+	height: 50%;
+	width:200%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.card
+{
+	background-color: #ebebe0;
+}
